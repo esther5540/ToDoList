@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:5253/items';
+axios.defaults.baseURL = 'https://todolist-server-hrl4.onrender.com';
 
 const apiUrl = axios.create();
 
